@@ -6,3 +6,6 @@ services:
   app:
     image: bkimminich/juice-shop:latest
     build: ./
+    environment:
+      APP_SECRET: "pas_48923jxu27rl00pzpioq"
+      GH_TOKEN: "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"
